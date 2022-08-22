@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>🏫 강의실 찾기</title>
+  <link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.5/dist/web/static/pretendard.css" />
+  <link rel="stylesheet" href="./style.css">
+  <script src="./javascript.js"></script>
+</head>
+
+<body>
+  <div id="body-wrapper">
+    
+    <div id="body-content">
+      <h1>🏫 내 강의실은 어디에?</h1>
+      <form name="form1" method="post">
+        <div id="box">
+          <label for="input">강의실 번호</label><br>
+          <input type="text" name="classnumber" id="input" placeholder="숫자만 적어주세요"><br>
+        </div>
+        <input type="button" value="1초만에 확인 →" class="btn" onclick="check_class()"><br>
+        <input type="reset" value="다시하기" class="btn-underline" onclick="re()"><br>
+        <p id="result">　</p>
+      </form>
+    </div>
+    <br>
+    <hr id=hr1>
+    <footer>
+      <p class="ft" style="font-size: 18px;">도움이 되셨나요?</p>
+      <a href="https://toss.me/꽁치가르송/500" class="ft2">🐟 <span style="text-decoration: underline;">꽁치에게 간식비 선물하기</span> →</a><br><br>
+      <a href="https://saury801.tistory.com/" class="ft2">🏠 <span style="text-decoration: underline;">꽁치가르송 블로그</span> →</a>
+    </footer>
+  </div>
+
+</body>
+
+</html>
