@@ -32,6 +32,7 @@ label {
   font-size: 24px;
   caret-color: blue;
   border-radius: 8px;
+  box-sizing: border-box;
 }
 #input::placeholder {
   color: slategray;
@@ -46,19 +47,19 @@ label {
   background-color: blue;
   font-size: 14px;
   font-weight: bold;
-  width: 308px;
+  width: 300px;
   height: 48px;
   border: none;
   border-radius: 8px;
   margin-top: 16px;
   transition: 0.2s;
 }
-.btn:hover {
+.btn:active {
   background-color: rgb(0, 0, 190);
 }
-.btn:focus {
+/* .btn:focus {
   background-color: blue;
-}
+} */
 
 /* 다시하기 버튼 */
 .btn-underline {
