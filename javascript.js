@@ -1,3 +1,5 @@
+// JS 완전 초보라서 코드가 무척 지저분한 점 양해부탁드립니다 (_ _)
+
 function check_class(){
   n=document.form1.classnumber.value;
 
