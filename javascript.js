@@ -658,7 +658,7 @@ function check_class(){
 
   // [인캠] 방목학술정보관
   else if(n == 9114){
-    document.getElementById(`result`).innerHTML=`<img src="./image/S9.JPG" width="80%" alt="방목학술정보관"></img><br><br>[인캠] 방목학술정보관 (도서관, 9번 건물)<br><br><span style="font-size: 24px;">1층 국제회의장</span>
+    document.getElementById(`result`).innerHTML=`<img src="./image/S9.JPG" width="80%" alt="방목학술정보관"></img><br><br>[인캠] 방목학술정보관 (도서관, 9번 건물)<br><br><span style="font-size: 24px;">1층 국제회의장</span><br><br><div class ="tip"><p>💡TIP : 학술관 3층 ↔ 국제관 4층</p></div>
     <br><br><br>
     <div id="map">
     <div id="daumRoughmapContainer1661949748310" class="root_daum_roughmap root_daum_roughmap_landing"></div></div>`;
