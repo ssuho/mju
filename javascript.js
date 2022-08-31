@@ -74,25 +74,125 @@ function check_class(){
 
   // [인캠]본관
     else if(1200 > n && n >= 1100){
-    document.getElementById(`result`).innerHTML=`<img src="./image/S1.JPG" width="80%" alt="[인캠] 종합관"></img><br><br>[인캠] 종합관 (구 본관, 1번 건물)<br><br><span style="font-size: 24px;">1층</span><br><br><div class ="tip"><p>💡TIP : 본관 2층 ↔ 학관 4층<br>본관 4층 ↔ 기숙사</p></div><link rel ="stylesheet" href="/style2.css">`;
+    document.getElementById(`result`).innerHTML=`<img src="./image/S1.JPG" width="80%" alt="[인캠] 종합관"></img><br><br>[인캠] 종합관 (구 본관, 1번 건물)<br><br><span style="font-size: 24px;">1층</span><br><br><div class ="tip"><p>💡TIP : 종합관 2층 ↔ 학관 4층<br>종합관 4층 ↔ 기숙사</p></div><link rel ="stylesheet" href="/style2.css">
+    <br><br><br>
+    <div id="map">
+    <div id="daumRoughmapContainer1661949607860" class="root_daum_roughmap root_daum_roughmap_landing"></div></div>`;
+                         new daum.roughmap.Lander({
+		"timestamp" : "1661949607860",
+		"key" : "2bjwu",
+		"mapWidth" : "360",
+		"mapHeight" : "300"
+	}).render();
+
   } else if(1300 > n && n >= 1200){
-    document.getElementById(`result`).innerHTML=`<img src="./image/S1.JPG" width="80%" alt="[인캠] 종합관"></img><br><br>[인캠] 종합관 (구 본관, 1번 건물)<br><br><span style="font-size: 24px;">2층 교양, 영어 강의실</span><br><br><div class ="tip"><p>💡TIP : 본관 2층 ↔ 학관 4층<br>본관 4층 ↔ 기숙사</p></div>`;
+    document.getElementById(`result`).innerHTML=`<img src="./image/S1.JPG" width="80%" alt="[인캠] 종합관"></img><br><br>[인캠] 종합관 (구 본관, 1번 건물)<br><br><span style="font-size: 24px;">2층 교양, 영어 강의실</span><br><br><div class ="tip"><p>💡TIP : 종합관 2층 ↔ 학관 4층<br>종합관 4층 ↔ 기숙사</p></div>
+    <br><br><br>
+    <div id="map">
+    <div id="daumRoughmapContainer1661949607860" class="root_daum_roughmap root_daum_roughmap_landing"></div></div>`;
+                         new daum.roughmap.Lander({
+		"timestamp" : "1661949607860",
+		"key" : "2bjwu",
+		"mapWidth" : "360",
+		"mapHeight" : "300"
+	}).render();
+
   } else if(1400 > n && n >=1300){
-    document.getElementById(`result`).innerHTML=`<img src="./image/S1.JPG" width="80%" alt="[인캠] 종합관"></img><br><br>[인캠] 종합관 (구 본관, 1번 건물)<br><br><span style="font-size: 24px;">3층 교양, ICT 강의실</span><br><br><div class ="tip"><p>💡TIP : 본관 2층 ↔ 학관 4층<br>본관 4층 ↔ 기숙사</p></div>`;
+    document.getElementById(`result`).innerHTML=`<img src="./image/S1.JPG" width="80%" alt="[인캠] 종합관"></img><br><br>[인캠] 종합관 (구 본관, 1번 건물)<br><br><span style="font-size: 24px;">3층 교양, ICT 강의실</span><br><br><div class ="tip"><p>💡TIP : 종합관 2층 ↔ 학관 4층<br>종합관 4층 ↔ 기숙사</p></div>
+    <br><br><br>
+    <div id="map">
+    <div id="daumRoughmapContainer1661949607860" class="root_daum_roughmap root_daum_roughmap_landing"></div></div>`;
+                         new daum.roughmap.Lander({
+		"timestamp" : "1661949607860",
+		"key" : "2bjwu",
+		"mapWidth" : "360",
+		"mapHeight" : "300"
+	}).render();
+
   } else if(1500 > n && n >=1400){
-    document.getElementById(`result`).innerHTML=`<img src="./image/S1.JPG" width="80%" alt="[인캠] 종합관"></img><br><br>[인캠] 종합관 (구 본관, 1번 건물)<br><br><span style="font-size: 24px;">4층 경제, 청지, 아동 강의실</span><br><br><div class ="tip"><p>💡TIP : 본관 2층 ↔ 학관 4층<br>본관 4층 ↔ 기숙사</p></div>`;
+    document.getElementById(`result`).innerHTML=`<img src="./image/S1.JPG" width="80%" alt="[인캠] 종합관"></img><br><br>[인캠] 종합관 (구 본관, 1번 건물)<br><br><span style="font-size: 24px;">4층 경제, 청지, 아동 강의실</span><br><br><div class ="tip"><p>💡TIP : 종합관 2층 ↔ 학관 4층<br>종합관 4층 ↔ 기숙사</p></div>
+    <br><br><br>
+    <div id="map">
+    <div id="daumRoughmapContainer1661949607860" class="root_daum_roughmap root_daum_roughmap_landing"></div></div>`;
+                         new daum.roughmap.Lander({
+		"timestamp" : "1661949607860",
+		"key" : "2bjwu",
+		"mapWidth" : "360",
+		"mapHeight" : "300"
+	}).render();
+
   } else if(1600 > n && n >=1500){
-    document.getElementById(`result`).innerHTML=`<img src="./image/S1.JPG" width="80%" alt="[인캠] 종합관"></img><br><br>[인캠] 종합관 (구 본관, 1번 건물)<br><br><span style="font-size: 24px;">5층 법대 강의실</span><br><br><div class ="tip"><p>💡TIP : 본관 2층 ↔ 학관 4층<br>본관 4층 ↔ 기숙사</p></div>`;
+    document.getElementById(`result`).innerHTML=`<img src="./image/S1.JPG" width="80%" alt="[인캠] 종합관"></img><br><br>[인캠] 종합관 (구 본관, 1번 건물)<br><br><span style="font-size: 24px;">5층 법대 강의실</span><br><br><div class ="tip"><p>💡TIP : 종합관 2층 ↔ 학관 4층<br>종합관 4층 ↔ 기숙사</p></div>
+    <br><br><br>
+    <div id="map">
+    <div id="daumRoughmapContainer1661949607860" class="root_daum_roughmap root_daum_roughmap_landing"></div></div>`;
+                         new daum.roughmap.Lander({
+		"timestamp" : "1661949607860",
+		"key" : "2bjwu",
+		"mapWidth" : "360",
+		"mapHeight" : "300"
+	}).render();
+
   } else if(1700 > n && n >=1600){
-    document.getElementById(`result`).innerHTML=`<img src="./image/S1.JPG" width="80%" alt="[인캠] 종합관"></img><br><br>[인캠] 종합관 (구 본관, 1번 건물)<br><br><span style="font-size: 24px;">6층 사과대, 법대 강의실</span><br><br><div class ="tip"><p>💡TIP : 본관 2층 ↔ 학관 4층<br>본관 4층 ↔ 기숙사</p></div>`;
+    document.getElementById(`result`).innerHTML=`<img src="./image/S1.JPG" width="80%" alt="[인캠] 종합관"></img><br><br>[인캠] 종합관 (구 본관, 1번 건물)<br><br><span style="font-size: 24px;">6층 사과대, 법대 강의실</span><br><br><div class ="tip"><p>💡TIP : 종합관 2층 ↔ 학관 4층<br>종합관 4층 ↔ 기숙사</p></div>
+    <br><br><br>
+    <div id="map">
+    <div id="daumRoughmapContainer1661949607860" class="root_daum_roughmap root_daum_roughmap_landing"></div></div>`;
+                         new daum.roughmap.Lander({
+		"timestamp" : "1661949607860",
+		"key" : "2bjwu",
+		"mapWidth" : "360",
+		"mapHeight" : "300"
+	}).render();
+
   } else if(1800 > n && n >=1700){
-    document.getElementById(`result`).innerHTML=`<img src="./image/S1.JPG" width="80%" alt="[인캠] 종합관"></img><br><br>[인캠] 종합관 (구 본관, 1번 건물)<br><br><span style="font-size: 24px;">7층 인문 강의실</span><br><br><div class ="tip"><p>💡TIP : 본관 2층 ↔ 학관 4층<br>본관 4층 ↔ 기숙사</p></div>`;
+    document.getElementById(`result`).innerHTML=`<img src="./image/S1.JPG" width="80%" alt="[인캠] 종합관"></img><br><br>[인캠] 종합관 (구 본관, 1번 건물)<br><br><span style="font-size: 24px;">7층 인문 강의실</span><br><br><div class ="tip"><p>💡TIP : 종합관 2층 ↔ 학관 4층<br>종합관 4층 ↔ 기숙사</p></div>
+    <br><br><br>
+    <div id="map">
+    <div id="daumRoughmapContainer1661949607860" class="root_daum_roughmap root_daum_roughmap_landing"></div></div>`;
+                         new daum.roughmap.Lander({
+		"timestamp" : "1661949607860",
+		"key" : "2bjwu",
+		"mapWidth" : "360",
+		"mapHeight" : "300"
+	}).render();
+
   } else if(1900 > n && n >=1800){
-    document.getElementById(`result`).innerHTML=`<img src="./image/S1.JPG" width="80%" alt="[인캠] 종합관"></img><br><br>[인캠] 종합관 (구 본관, 1번 건물)<br><br><span style="font-size: 24px;">8층 인문 강의실</span><br><br><div class ="tip"><p>💡TIP : 본관 2층 ↔ 학관 4층<br>본관 4층 ↔ 기숙사</p></div>`;
+    document.getElementById(`result`).innerHTML=`<img src="./image/S1.JPG" width="80%" alt="[인캠] 종합관"></img><br><br>[인캠] 종합관 (구 본관, 1번 건물)<br><br><span style="font-size: 24px;">8층 인문 강의실</span><br><br><div class ="tip"><p>💡TIP : 종합관 2층 ↔ 학관 4층<br>종합관 4층 ↔ 기숙사</p></div>
+    <br><br><br>
+    <div id="map">
+    <div id="daumRoughmapContainer1661949607860" class="root_daum_roughmap root_daum_roughmap_landing"></div></div>`;
+                         new daum.roughmap.Lander({
+		"timestamp" : "1661949607860",
+		"key" : "2bjwu",
+		"mapWidth" : "360",
+		"mapHeight" : "300"
+	}).render();
+
   } else if(2000 > n && n >=1900){
-    document.getElementById(`result`).innerHTML=`<img src="./image/S1.JPG" width="80%" alt="[인캠] 종합관"></img><br><br>[인캠] 종합관 (구 본관, 1번 건물)<br><br><span style="font-size: 24px;">9층 인문 강의실</span><br><br><div class ="tip"><p>💡TIP : 본관 2층 ↔ 학관 4층<br>본관 4층 ↔ 기숙사</p></div>`;
+    document.getElementById(`result`).innerHTML=`<img src="./image/S1.JPG" width="80%" alt="[인캠] 종합관"></img><br><br>[인캠] 종합관 (구 본관, 1번 건물)<br><br><span style="font-size: 24px;">9층 인문 강의실</span><br><br><div class ="tip"><p>💡TIP : 종합관 2층 ↔ 학관 4층<br>종합관 4층 ↔ 기숙사</p></div>
+    <br><br><br>
+    <div id="map">
+    <div id="daumRoughmapContainer1661949607860" class="root_daum_roughmap root_daum_roughmap_landing"></div></div>`;
+                         new daum.roughmap.Lander({
+		"timestamp" : "1661949607860",
+		"key" : "2bjwu",
+		"mapWidth" : "360",
+		"mapHeight" : "300"
+	}).render();
+
   } else if(12000 > n && n >=11000){
-    document.getElementById(`result`).innerHTML=`<img src="./image/S1.JPG" width="80%" alt="[인캠] 종합관"></img><br><br>[인캠] 종합관 (구 본관, 1번 건물)<br><br><span style="font-size: 24px;">10층 대강당, 대학원</span><br><br><div class ="tip"><p>💡TIP : 본관 2층 ↔ 학관 4층<br>본관 4층 ↔ 기숙사</p></div>`;
+    document.getElementById(`result`).innerHTML=`<img src="./image/S1.JPG" width="80%" alt="[인캠] 종합관"></img><br><br>[인캠] 종합관 (구 본관, 1번 건물)<br><br><span style="font-size: 24px;">10층 대강당, 대학원</span><br><br><div class ="tip"><p>💡TIP : 종합관 2층 ↔ 학관 4층<br>종합관 4층 ↔ 기숙사</p></div>
+    <br><br><br>
+    <div id="map">
+    <div id="daumRoughmapContainer1661949607860" class="root_daum_roughmap root_daum_roughmap_landing"></div></div>`;
+                         new daum.roughmap.Lander({
+		"timestamp" : "1661949607860",
+		"key" : "2bjwu",
+		"mapWidth" : "360",
+		"mapHeight" : "300"
+	}).render();
+
   }
 
   
@@ -177,25 +277,125 @@ function check_class(){
 
   // [인캠]경상관
     else if(4100 > n && n >=4000){
-    document.getElementById(`result`).innerHTML=`<img src="./image/S4.JPG" width="80%" alt="[인캠] 국제관"></img><br><br>[인캠] 국제관 (구 경상관, 4번 건물)<br><br><span style="font-size: 24px;">지하 1층</span>`;
+    document.getElementById(`result`).innerHTML=`<img src="./image/S4.JPG" width="80%" alt="[인캠] 국제관"></img><br><br>[인캠] 국제관 (구 경상관, 4번 건물)<br><br><span style="font-size: 24px;">지하 1층</span><br><br><div class ="tip"><p>💡TIP : 국제관 4층 중앙 ↔ 기숙사<br>국제관 4층 ↔ 도서관 3층</p></div></p></div>
+    <br><br><br>
+    <div id="map">
+    <div id="daumRoughmapContainer1661949494121" class="root_daum_roughmap root_daum_roughmap_landing"></div></div>`;
+                         new daum.roughmap.Lander({
+		"timestamp" : "1661949494121",
+		"key" : "2bjwt",
+		"mapWidth" : "360",
+		"mapHeight" : "300"
+	}).render();
+
   } else if(4200 > n && n >=4100){
-    document.getElementById(`result`).innerHTML=`<img src="./image/S4.JPG" width="80%" alt="[인캠] 국제관"></img><br><br>[인캠] 국제관 (구 경상관, 4번 건물)<br><br><span style="font-size: 24px;">1층</span>`;
+    document.getElementById(`result`).innerHTML=`<img src="./image/S4.JPG" width="80%" alt="[인캠] 국제관"></img><br><br>[인캠] 국제관 (구 경상관, 4번 건물)<br><br><span style="font-size: 24px;">1층</span><br><br><div class ="tip"><p>💡TIP : 국제관 4층 중앙 ↔ 기숙사<br>국제관 4층 ↔ 도서관 3층</p></div></p></div>
+    <br><br><br>
+    <div id="map">
+    <div id="daumRoughmapContainer1661949494121" class="root_daum_roughmap root_daum_roughmap_landing"></div></div>`;
+                         new daum.roughmap.Lander({
+		"timestamp" : "1661949494121",
+		"key" : "2bjwt",
+		"mapWidth" : "360",
+		"mapHeight" : "300"
+	}).render();
+
   } else if(4300 > n && n >=4200){
-    document.getElementById(`result`).innerHTML=`<img src="./image/S4.JPG" width="80%" alt="[인캠] 국제관"></img><br><br>[인캠] 국제관 (구 경상관, 4번 건물)<br><br><span style="font-size: 24px;">2층</span>`;
+    document.getElementById(`result`).innerHTML=`<img src="./image/S4.JPG" width="80%" alt="[인캠] 국제관"></img><br><br>[인캠] 국제관 (구 경상관, 4번 건물)<br><br><span style="font-size: 24px;">2층</span><br><br><div class ="tip"><p>💡TIP : 국제관 4층 중앙 ↔ 기숙사<br>국제관 4층 ↔ 도서관 3층</p></div></p></div>
+    <br><br><br>
+    <div id="map">
+    <div id="daumRoughmapContainer1661949494121" class="root_daum_roughmap root_daum_roughmap_landing"></div></div>`;
+                         new daum.roughmap.Lander({
+		"timestamp" : "1661949494121",
+		"key" : "2bjwt",
+		"mapWidth" : "360",
+		"mapHeight" : "300"
+	}).render();
+
   } else if(4400 > n && n >=4300){
-    document.getElementById(`result`).innerHTML=`<img src="./image/S4.JPG" width="80%" alt="[인캠] 국제관"></img><br><br>[인캠] 국제관 (구 경상관, 4번 건물)<br><br><span style="font-size: 24px;">3층</span>`;
+    document.getElementById(`result`).innerHTML=`<img src="./image/S4.JPG" width="80%" alt="[인캠] 국제관"></img><br><br>[인캠] 국제관 (구 경상관, 4번 건물)<br><br><span style="font-size: 24px;">3층</span><br><br><div class ="tip"><p>💡TIP : 국제관 4층 중앙 ↔ 기숙사<br>국제관 4층 ↔ 도서관 3층</p></div></p></div>
+    <br><br><br>
+    <div id="map">
+    <div id="daumRoughmapContainer1661949494121" class="root_daum_roughmap root_daum_roughmap_landing"></div></div>`;
+                         new daum.roughmap.Lander({
+		"timestamp" : "1661949494121",
+		"key" : "2bjwt",
+		"mapWidth" : "360",
+		"mapHeight" : "300"
+	}).render();
+
   } else if(4500 > n && n >=4400){
-    document.getElementById(`result`).innerHTML=`<img src="./image/S4.JPG" width="80%" alt="[인캠] 국제관"></img><br><br>[인캠] 국제관 (구 경상관, 4번 건물)<br><br><span style="font-size: 24px;">4층</span>`;
+    document.getElementById(`result`).innerHTML=`<img src="./image/S4.JPG" width="80%" alt="[인캠] 국제관"></img><br><br>[인캠] 국제관 (구 경상관, 4번 건물)<br><br><span style="font-size: 24px;">4층</span><br><br><div class ="tip"><p>💡TIP : 국제관 4층 중앙 ↔ 기숙사<br>국제관 4층 ↔ 도서관 3층</p></div></p></div>
+    <br><br><br>
+    <div id="map">
+    <div id="daumRoughmapContainer1661949494121" class="root_daum_roughmap root_daum_roughmap_landing"></div></div>`;
+                         new daum.roughmap.Lander({
+		"timestamp" : "1661949494121",
+		"key" : "2bjwt",
+		"mapWidth" : "360",
+		"mapHeight" : "300"
+	}).render();
+
   } else if(4600 > n && n >=4500){
-    document.getElementById(`result`).innerHTML=`<img src="./image/S4.JPG" width="80%" alt="[인캠] 국제관"></img><br><br>[인캠] 국제관 (구 경상관, 4번 건물)<br><br><span style="font-size: 24px;">5층</span>`;
+    document.getElementById(`result`).innerHTML=`<img src="./image/S4.JPG" width="80%" alt="[인캠] 국제관"></img><br><br>[인캠] 국제관 (구 경상관, 4번 건물)<br><br><span style="font-size: 24px;">5층</span><br><br><div class ="tip"><p>💡TIP : 국제관 4층 중앙 ↔ 기숙사<br>국제관 4층 ↔ 도서관 3층</p></div></p></div>
+    <br><br><br>
+    <div id="map">
+    <div id="daumRoughmapContainer1661949494121" class="root_daum_roughmap root_daum_roughmap_landing"></div></div>`;
+                         new daum.roughmap.Lander({
+		"timestamp" : "1661949494121",
+		"key" : "2bjwt",
+		"mapWidth" : "360",
+		"mapHeight" : "300"
+	}).render();
+
   } else if(4700 > n && n >=4600){
-    document.getElementById(`result`).innerHTML=`<img src="./image/S4.JPG" width="80%" alt="[인캠] 국제관"></img><br><br>[인캠] 국제관 (구 경상관, 4번 건물)<br><br><span style="font-size: 24px;">6층</span>`;
+    document.getElementById(`result`).innerHTML=`<img src="./image/S4.JPG" width="80%" alt="[인캠] 국제관"></img><br><br>[인캠] 국제관 (구 경상관, 4번 건물)<br><br><span style="font-size: 24px;">6층</span><br><br><div class ="tip"><p>💡TIP : 국제관 4층 중앙 ↔ 기숙사<br>국제관 4층 ↔ 도서관 3층</p></div></p></div>
+    <br><br><br>
+    <div id="map">
+    <div id="daumRoughmapContainer1661949494121" class="root_daum_roughmap root_daum_roughmap_landing"></div></div>`;
+                         new daum.roughmap.Lander({
+		"timestamp" : "1661949494121",
+		"key" : "2bjwt",
+		"mapWidth" : "360",
+		"mapHeight" : "300"
+	}).render();
+
   } else if(4800 > n && n >=4700){
-    document.getElementById(`result`).innerHTML=`<img src="./image/S4.JPG" width="80%" alt="[인캠] 국제관"></img><br><br>[인캠] 국제관 (구 경상관, 4번 건물)<br><br><span style="font-size: 24px;">7층</span>`;
+    document.getElementById(`result`).innerHTML=`<img src="./image/S4.JPG" width="80%" alt="[인캠] 국제관"></img><br><br>[인캠] 국제관 (구 경상관, 4번 건물)<br><br><span style="font-size: 24px;">7층</span><br><br><div class ="tip"><p>💡TIP : 국제관 4층 중앙 ↔ 기숙사<br>국제관 4층 ↔ 도서관 3층</p></div></p></div>
+    <br><br><br>
+    <div id="map">
+    <div id="daumRoughmapContainer1661949494121" class="root_daum_roughmap root_daum_roughmap_landing"></div></div>`;
+                         new daum.roughmap.Lander({
+		"timestamp" : "1661949494121",
+		"key" : "2bjwt",
+		"mapWidth" : "360",
+		"mapHeight" : "300"
+	}).render();
+
   } else if(4900 > n && n >=4800){
-    document.getElementById(`result`).innerHTML=`<img src="./image/S4.JPG" width="80%" alt="[인캠] 국제관"></img><br><br>[인캠] 국제관 (구 경상관, 4번 건물)<br><br><span style="font-size: 24px;">8층</span>`;
+    document.getElementById(`result`).innerHTML=`<img src="./image/S4.JPG" width="80%" alt="[인캠] 국제관"></img><br><br>[인캠] 국제관 (구 경상관, 4번 건물)<br><br><span style="font-size: 24px;">8층</span><br><br><div class ="tip"><p>💡TIP : 국제관 4층 중앙 ↔ 기숙사<br>국제관 4층 ↔ 도서관 3층</p></div></p></div>
+    <br><br><br>
+    <div id="map">
+    <div id="daumRoughmapContainer1661949494121" class="root_daum_roughmap root_daum_roughmap_landing"></div></div>`;
+                         new daum.roughmap.Lander({
+		"timestamp" : "1661949494121",
+		"key" : "2bjwt",
+		"mapWidth" : "360",
+		"mapHeight" : "300"
+	}).render();
+
   } else if(4999 > n && n >=4900){
-    document.getElementById(`result`).innerHTML=`<img src="./image/S4.JPG" width="80%" alt="[인캠] 국제관"></img><br><br>[인캠] 국제관 (구 경상관, 4번 건물)<br><br><span style="font-size: 24px;">9층</span>`;
+    document.getElementById(`result`).innerHTML=`<img src="./image/S4.JPG" width="80%" alt="[인캠] 국제관"></img><br><br>[인캠] 국제관 (구 경상관, 4번 건물)<br><br><span style="font-size: 24px;">9층</span><br><br><div class ="tip"><p>💡TIP : 국제관 4층 중앙 ↔ 기숙사<br>국제관 4층 ↔ 도서관 3층</p></div></p></div>
+    <br><br><br>
+    <div id="map">
+    <div id="daumRoughmapContainer1661949494121" class="root_daum_roughmap root_daum_roughmap_landing"></div></div>`;
+                         new daum.roughmap.Lander({
+		"timestamp" : "1661949494121",
+		"key" : "2bjwt",
+		"mapWidth" : "360",
+		"mapHeight" : "300"
+	}).render();
+
   }
 
   //[자캠] 제5공학관 (1)
@@ -253,7 +453,17 @@ function check_class(){
   
   // [인캠] 행정동
   else if(5520 > n && n >= 5510){
-    document.getElementById(`result`).innerHTML=`<img src="./image/S5.JPG" width="80%" alt="행정동"></img><br><br>[인캠] 행정동 (5번 건물)<br><br><span style="font-size: 24px;">5층 강당</span>`;
+    document.getElementById(`result`).innerHTML=`<img src="./image/S5.JPG" width="80%" alt="행정동"></img><br><br>[인캠] 행정동 (5번 건물)<br><br><span style="font-size: 24px;">5층 강당</span>
+    <br><br><br>
+    <div id="map">
+    <div id="daumRoughmapContainer1661949956663" class="root_daum_roughmap root_daum_roughmap_landing"></div></div>`;
+                         new daum.roughmap.Lander({
+		"timestamp" : "1661949956663",
+		"key" : "2bjxz",
+		"mapWidth" : "360",
+		"mapHeight" : "300"
+	}).render();
+
   }
 
   //[자캠] 제5공학관 (2)
@@ -448,7 +658,17 @@ function check_class(){
 
   // [인캠] 방목학술정보관
   else if(n == 9114){
-    document.getElementById(`result`).innerHTML=`<img src="./image/S9.JPG" width="80%" alt="방목학술정보관"></img><br><br>[인캠] 방목학술정보관 (도서관, 9번 건물)<br><br><span style="font-size: 24px;">1층 국제회의장</span>`;
+    document.getElementById(`result`).innerHTML=`<img src="./image/S9.JPG" width="80%" alt="방목학술정보관"></img><br><br>[인캠] 방목학술정보관 (도서관, 9번 건물)<br><br><span style="font-size: 24px;">1층 국제회의장</span>
+    <br><br><br>
+    <div id="map">
+    <div id="daumRoughmapContainer1661949748310" class="root_daum_roughmap root_daum_roughmap_landing"></div></div>`;
+                         new daum.roughmap.Lander({
+		"timestamp" : "1661949748310",
+		"key" : "2bjww",
+		"mapWidth" : "360",
+		"mapHeight" : "300"
+	}).render();
+
   }
 
   //[자캠] 함박관
@@ -520,13 +740,53 @@ function check_class(){
 
   // [인캠] MCC
     else if(10200 > n && n >=10100){
-    document.getElementById(`result`).innerHTML=`<img src="./image/S10.JPG" width="80%" alt="[인캠] MCC"></img><br><br>[인캠] MCC (10번 건물)<br><br><span style="font-size: 24px;">베리타스홀 1층</span>`;
+    document.getElementById(`result`).innerHTML=`<img src="./image/S10.JPG" width="80%" alt="[인캠] MCC"></img><br><br>[인캠] MCC (10번 건물)<br><br><span style="font-size: 24px;">베리타스홀 1층</span>
+    <br><br><br>
+    <div id="map">
+    <div id="daumRoughmapContainer1661949414554" class="root_daum_roughmap root_daum_roughmap_landing"></div></div>`;
+                         new daum.roughmap.Lander({
+		"timestamp" : "1661949414554",
+		"key" : "2bjwr",
+		"mapWidth" : "360",
+		"mapHeight" : "300"
+	}).render();
+
   } else if(10300 > n && n >=10200){
-    document.getElementById(`result`).innerHTML=`<img src="./image/S10.JPG" width="80%" alt="[인캠] MCC"></img><br><br>[인캠] MCC (10번 건물)<br><br><span style="font-size: 24px;">베리타스홀 2층</span>`;
+    document.getElementById(`result`).innerHTML=`<img src="./image/S10.JPG" width="80%" alt="[인캠] MCC"></img><br><br>[인캠] MCC (10번 건물)<br><br><span style="font-size: 24px;">베리타스홀 2층</span>
+    <br><br><br>
+    <div id="map">
+    <div id="daumRoughmapContainer1661949414554" class="root_daum_roughmap root_daum_roughmap_landing"></div></div>`;
+                         new daum.roughmap.Lander({
+		"timestamp" : "1661949414554",
+		"key" : "2bjwr",
+		"mapWidth" : "360",
+		"mapHeight" : "300"
+	}).render();
+
   } else if(10400 > n && n >=10300){
-    document.getElementById(`result`).innerHTML=`<img src="./image/S10.JPG" width="80%" alt="[인캠] MCC"></img><br><br>[인캠] MCC (10번 건물)<br><br><span style="font-size: 24px;">베리타스홀 3층</span>`;
+    document.getElementById(`result`).innerHTML=`<img src="./image/S10.JPG" width="80%" alt="[인캠] MCC"></img><br><br>[인캠] MCC (10번 건물)<br><br><span style="font-size: 24px;">베리타스홀 3층</span>
+    <br><br><br>
+    <div id="map">
+    <div id="daumRoughmapContainer1661949414554" class="root_daum_roughmap root_daum_roughmap_landing"></div></div>`;
+                         new daum.roughmap.Lander({
+		"timestamp" : "1661949414554",
+		"key" : "2bjwr",
+		"mapWidth" : "360",
+		"mapHeight" : "300"
+	}).render();
+
   } else if(10500 > n && n >=10400){
-    document.getElementById(`result`).innerHTML=`<img src="./image/S10.JPG" width="80%" alt="[인캠] MCC"></img><br><br>[인캠] MCC (10번 건물)<br><br><span style="font-size: 24px;">베리타스홀 4층</span>`;
+    document.getElementById(`result`).innerHTML=`<img src="./image/S10.JPG" width="80%" alt="[인캠] MCC"></img><br><br>[인캠] MCC (10번 건물)<br><br><span style="font-size: 24px;">베리타스홀 4층</span>
+    <br><br><br>
+    <div id="map">
+    <div id="daumRoughmapContainer1661949414554" class="root_daum_roughmap root_daum_roughmap_landing"></div></div>`;
+                         new daum.roughmap.Lander({
+		"timestamp" : "1661949414554",
+		"key" : "2bjwr",
+		"mapWidth" : "360",
+		"mapHeight" : "300"
+	}).render();
+
   }
   
   //[자캠] 디자인조형센터
