@@ -74,7 +74,7 @@ function check_class(){
 
   // [인캠]본관
     else if(1200 > n && n >= 1100){
-    document.getElementById(`result`).innerHTML=`<img src="./image/S1.JPG" width="80%" alt="[인캠] 종합관"></img><br><br>[인캠] 종합관 (구 본관, 1번 건물)<br><br><span style="font-size: 24px;">1층</span><br><br><div class ="tip"><p>💡TIP : 본관 2층 ↔ 학관 4층<br>본관 4층 ↔ 기숙사</p></div>`;
+    document.getElementById(`result`).innerHTML=`<img src="./image/S1.JPG" width="80%" alt="[인캠] 종합관"></img><br><br>[인캠] 종합관 (구 본관, 1번 건물)<br><br><span style="font-size: 24px;">1층</span><br><br><div class ="tip"><p>💡TIP : 본관 2층 ↔ 학관 4층<br>본관 4층 ↔ 기숙사</p></div><link rel ="stylesheet" href="/style2.css">`;
   } else if(1300 > n && n >= 1200){
     document.getElementById(`result`).innerHTML=`<img src="./image/S1.JPG" width="80%" alt="[인캠] 종합관"></img><br><br>[인캠] 종합관 (구 본관, 1번 건물)<br><br><span style="font-size: 24px;">2층 교양, 영어 강의실</span><br><br><div class ="tip"><p>💡TIP : 본관 2층 ↔ 학관 4층<br>본관 4층 ↔ 기숙사</p></div>`;
   } else if(1400 > n && n >=1300){
