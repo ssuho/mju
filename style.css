@@ -142,3 +142,8 @@ footer {
   padding-top: 50px;
 }
 /* footer 하단 고정 [E] */
+
+/* 지도 */
+#map {
+  display: inline-block;
+}

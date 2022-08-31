@@ -1,5 +1,11 @@
 // JS 완전 초보라서 코드가 무척 지저분한 점 양해부탁드립니다 (_ _)
 
+var mapContainer = document.getElementById('map'), // 지도를 표시할 div 
+    mapOption = { 
+        center: new kakao.maps.LatLng(33.450701, 126.570667), // 지도의 중심좌표
+        level: 3 // 지도의 확대 레벨
+    };
+
 function check_class(){
   n=document.form1.classnumber.value;
 
@@ -11,19 +17,59 @@ function check_class(){
 
   // [자캠] 제1공학관 (4번 건물)
   if(199 > n && n >= 100){
-    document.getElementById('result').innerHTML='<img src="./image/Y1.jpg" width="80%" alt="[자캠] 제1공"></img><br><br>[자캠] 제1공학관 (4번 건물)<br><br><span style="font-size: 24px;">1층</span>';
-  }
+    document.getElementById('result').innerHTML=`<img src="./image/Y1.jpg" width="80%" alt="[자캠] 제1공"></img><br><br>[자캠] 제1공학관 (4번 건물)<br><br><span style="font-size: 24px;">1층</span><br><br><br>
+    <div id="map">
+    <div id="daumRoughmapContainer1661908509687" class="root_daum_roughmap root_daum_roughmap_landing"></div></div>`;
+      new daum.roughmap.Lander({
+        "timestamp" : "1661908509687",
+        "key" : "2bjgc",
+        "mapWidth" : "360",
+        "mapHeight" : "300"
+      }).render();
+  } 
   else if(299 > n && n >= 200){
-    document.getElementById('result').innerHTML='<img src="./image/Y1.jpg" width="80%" alt="[자캠] 제1공"></img><br><br>[자캠] 제1공학관 (4번 건물)<br><br><span style="font-size: 24px;">2층</span>';
+    document.getElementById('result').innerHTML=`<img src="./image/Y1.jpg" width="80%" alt="[자캠] 제1공"></img><br><br>[자캠] 제1공학관 (4번 건물)<br><br><span style="font-size: 24px;">2층</span><br><br><br>
+    <div id="map">
+    <div id="daumRoughmapContainer1661908509687" class="root_daum_roughmap root_daum_roughmap_landing"></div></div>`;
+      new daum.roughmap.Lander({
+        "timestamp" : "1661908509687",
+        "key" : "2bjgc",
+        "mapWidth" : "360",
+        "mapHeight" : "300"
+      }).render();;
   }
   else if(399 > n && n >= 300){
-    document.getElementById('result').innerHTML='<img src="./image/Y1.jpg" width="80%" alt="[자캠] 제1공"></img><br><br>[자캠] 제1공학관 (4번 건물)<br><br><span style="font-size: 24px;">3층</span>';
+    document.getElementById('result').innerHTML=`<img src="./image/Y1.jpg" width="80%" alt="[자캠] 제1공"></img><br><br>[자캠] 제1공학관 (4번 건물)<br><br><span style="font-size: 24px;">3층</span><br><br><br>
+    <div id="map">
+    <div id="daumRoughmapContainer1661908509687" class="root_daum_roughmap root_daum_roughmap_landing"></div></div>`;
+      new daum.roughmap.Lander({
+        "timestamp" : "1661908509687",
+        "key" : "2bjgc",
+        "mapWidth" : "360",
+        "mapHeight" : "300"
+      }).render();;
   }
   else if(499 > n && n >= 400){
-    document.getElementById('result').innerHTML='<img src="./image/Y1.jpg" width="80%" alt="[자캠] 제1공"></img><br><br>[자캠] 제1공학관 (4번 건물)<br><br><span style="font-size: 24px;">4층</span>';
+    document.getElementById('result').innerHTML=`<img src="./image/Y1.jpg" width="80%" alt="[자캠] 제1공"></img><br><br>[자캠] 제1공학관 (4번 건물)<br><br><span style="font-size: 24px;">4층</span><br><br><br>
+    <div id="map">
+    <div id="daumRoughmapContainer1661908509687" class="root_daum_roughmap root_daum_roughmap_landing"></div></div>`;
+      new daum.roughmap.Lander({
+        "timestamp" : "1661908509687",
+        "key" : "2bjgc",
+        "mapWidth" : "360",
+        "mapHeight" : "300"
+      }).render();;
   }
   else if(599 > n && n >= 500){
-    document.getElementById('result').innerHTML='<img src="./image/Y1.jpg" width="80%" alt="[자캠] 제1공"></img><br><br>[자캠] 제1공학관 (4번 건물)<br><br><span style="font-size: 24px;">5층</span>';
+    document.getElementById('result').innerHTML=`<img src="./image/Y1.jpg" width="80%" alt="[자캠] 제1공"></img><br><br>[자캠] 제1공학관 (4번 건물)<br><br><span style="font-size: 24px;">5층</span><br><br><br>
+    <div id="map">
+    <div id="daumRoughmapContainer1661908509687" class="root_daum_roughmap root_daum_roughmap_landing"></div></div>`;
+      new daum.roughmap.Lander({
+        "timestamp" : "1661908509687",
+        "key" : "2bjgc",
+        "mapWidth" : "360",
+        "mapHeight" : "300"
+      }).render();;
   }
 
   // [인캠]본관
