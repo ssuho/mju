@@ -30,31 +30,35 @@
   <title>🏫 강의실 찾기</title>
   <link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.5/dist/web/static/pretendard.css" />
   <link rel="stylesheet" href="./style.css">
-  <script src="./javascript.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.1/gsap.min.js" integrity="sha512-Mf/xUqfWvDIr+1B6zfnIDIiG7XHzyP/guXUWgV6PgaQoIFeXkJQR5XWh9fqAiCiRCpemabt3naV4jhDWVnuYDQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script defer src="./javascript.js"></script>
+
 </head>
 
 <body>
   <div id="body-wrapper">
     
-    <div id="body-content">
-      <h1>🏫 내 강의실은 어디에?</h1>
+    <div id="body-content" class="visual">
+      <h1 class="fade-in">🏫 내 강의실은 어디에?</h1>
       <form name="form1" method="post" id="form1" onsubmit="return false;">
         <div id="box">
-          <label for="input">강의실 번호</label><br>
-          <input type="text" name="classnumber" id="input" placeholder="숫자만 적어주세요"><br>
+          <label for="input" class="fade-in">강의실 번호</label><br>
+          <input type="text" class="fade-in" name="classnumber" id="input" placeholder="숫자만 적어주세요"><br>
           <input type="text" style="display:none;">
         </div>
-        <input type="button" value="1초만에 확인 →" class="btn" onclick="check_class()"><br>
-        <input type="reset" value="다시하기" class="btn-underline" onclick="re()"><br>
+        <input type="button" value="1초만에 확인 →" class="btn fade-in" onclick="check_class()"><br>
+        <input type="reset" value="다시하기" class="btn-underline fade-in" onclick="re()"><br>
         <p id="result">　</p>
       </form>
     </div>
     <br>
-    <hr id=hr1>
-    <footer>
-      <p class="ft" style="font-size: 18px;">도움이 되셨나요?</p>
-      <a href="https://toss.me/꽁치가르송/100" class="ft2">🐟 <span style="text-decoration: underline;">꽁치에게 100원 선물하기</span> →</a><br><br>
-    </footer>
+    <div class="visual2">
+      <hr id=hr1 class="fade-in">
+      <footer class="fade-in">
+        <p class="ft" style="font-size: 18px;">도움이 되셨나요?</p>
+        <a href="https://toss.me/꽁치가르송/100" class="ft2">🐟 <span style="text-decoration: underline;">꽁치에게 100원 선물하기</span> →</a><br><br>
+      </footer>
+    </div>
   </div>
 
 

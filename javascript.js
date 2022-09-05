@@ -1,5 +1,22 @@
 // JS 완전 초보라서 코드가 무척 지저분한 점 양해부탁드립니다 (_ _)
 
+//gsap
+const fadeEls = document.querySelectorAll('.visual .fade-in');
+fadeEls.forEach(function(fadeEl, index){
+  gsap.to(fadeEl, 1, {
+    delay: (index + 1) * .2,
+    opacity: 1
+  })
+});
+
+const fadeEls2 = document.querySelectorAll('.visual2 .fade-in');
+fadeEls2.forEach(function(fadeEl, index){
+  gsap.to(fadeEl, 2, {
+    delay: (index + 2) * .7,
+    opacity: 1
+  })
+});
+
 var mapContainer = document.getElementById(`map`), // 지도를 표시할 div 
     mapOption = { 
         center: new kakao.maps.LatLng(33.450701, 126.570667), // 지도의 중심좌표

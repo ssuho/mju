@@ -15,6 +15,7 @@ h1 {
   margin-top: 48px;
   margin-bottom: 40px;
   font-size: 24px;
+  opacity: 0;
 }
 
 /* 입력창 라벨 */
@@ -22,6 +23,8 @@ label {
   font-size: 16px;
   font-weight: bold;
   color: slategray;
+  opacity: 0;
+  
 }
 
 /* 입력창 */
@@ -34,6 +37,7 @@ label {
   caret-color: blue;
   border-radius: 8px;
   box-sizing: border-box;
+  opacity: 0;
 }
 #input::placeholder {
   color: slategray;
@@ -54,6 +58,7 @@ label {
   border-radius: 8px;
   margin-top: 16px;
   transition: 0.2s;
+  opacity: 0;
 }
 .btn:active {
   background-color: rgb(0, 0, 190);
@@ -75,6 +80,7 @@ label {
   border: none;
   border-radius: 12px;
   transition: 0.2s;
+  opacity: 0;
 }
 .btn-underline:hover {
   color: rgb(95, 95, 95);
@@ -96,6 +102,11 @@ p {
 
 /* 푸터 */
 /* footer 하단 고정 [S] */
+
+footer {
+  opacity: 0;
+}
+
 p.ft {
   font-size: 16px;
   font-weight: bold;
@@ -134,6 +145,7 @@ html, body {
 #hr1 {
   margin: 20px;
   border: 1px solid rgb(233, 233, 233);
+  opacity: 0;
 }
 
 footer {
@@ -161,7 +173,7 @@ footer {
   width: 80%;
   color: slategray;
   background-color: #e6e6e9;
-  padding: 15px;
+  padding: 15px 10px;
   border-radius: 8px;
   box-sizing: border-box;
   display: block;
