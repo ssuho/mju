@@ -17,12 +17,6 @@ fadeEls2.forEach(function(fadeEl, index){
   })
 });
 
-var mapContainer = document.getElementById(`map`), // 지도를 표시할 div 
-    mapOption = { 
-        center: new kakao.maps.LatLng(33.450701, 126.570667), // 지도의 중심좌표
-        level: 3 // 지도의 확대 레벨
-    };
-
 function check_class(){
   n=document.form1.classnumber.value;
 
@@ -95,7 +89,7 @@ function check_class(){
     <br><br><br>
     <div id="map">
     <div id="daumRoughmapContainer1661949607860" class="root_daum_roughmap root_daum_roughmap_landing"></div></div>`;
-                         new daum.roughmap.Lander({
+    new daum.roughmap.Lander({
 		"timestamp" : "1661949607860",
 		"key" : "2bjwu",
 		"mapWidth" : "360",
@@ -107,7 +101,7 @@ function check_class(){
     <br><br><br>
     <div id="map">
     <div id="daumRoughmapContainer1661949607860" class="root_daum_roughmap root_daum_roughmap_landing"></div></div>`;
-                         new daum.roughmap.Lander({
+    new daum.roughmap.Lander({
 		"timestamp" : "1661949607860",
 		"key" : "2bjwu",
 		"mapWidth" : "360",
@@ -119,7 +113,7 @@ function check_class(){
     <br><br><br>
     <div id="map">
     <div id="daumRoughmapContainer1661949607860" class="root_daum_roughmap root_daum_roughmap_landing"></div></div>`;
-                         new daum.roughmap.Lander({
+    new daum.roughmap.Lander({
 		"timestamp" : "1661949607860",
 		"key" : "2bjwu",
 		"mapWidth" : "360",
@@ -131,7 +125,7 @@ function check_class(){
     <br><br><br>
     <div id="map">
     <div id="daumRoughmapContainer1661949607860" class="root_daum_roughmap root_daum_roughmap_landing"></div></div>`;
-                         new daum.roughmap.Lander({
+    new daum.roughmap.Lander({
 		"timestamp" : "1661949607860",
 		"key" : "2bjwu",
 		"mapWidth" : "360",
@@ -143,7 +137,7 @@ function check_class(){
     <br><br><br>
     <div id="map">
     <div id="daumRoughmapContainer1661949607860" class="root_daum_roughmap root_daum_roughmap_landing"></div></div>`;
-                         new daum.roughmap.Lander({
+    new daum.roughmap.Lander({
 		"timestamp" : "1661949607860",
 		"key" : "2bjwu",
 		"mapWidth" : "360",
@@ -155,7 +149,7 @@ function check_class(){
     <br><br><br>
     <div id="map">
     <div id="daumRoughmapContainer1661949607860" class="root_daum_roughmap root_daum_roughmap_landing"></div></div>`;
-                         new daum.roughmap.Lander({
+    new daum.roughmap.Lander({
 		"timestamp" : "1661949607860",
 		"key" : "2bjwu",
 		"mapWidth" : "360",
@@ -167,7 +161,7 @@ function check_class(){
     <br><br><br>
     <div id="map">
     <div id="daumRoughmapContainer1661949607860" class="root_daum_roughmap root_daum_roughmap_landing"></div></div>`;
-                         new daum.roughmap.Lander({
+    new daum.roughmap.Lander({
 		"timestamp" : "1661949607860",
 		"key" : "2bjwu",
 		"mapWidth" : "360",
@@ -179,7 +173,7 @@ function check_class(){
     <br><br><br>
     <div id="map">
     <div id="daumRoughmapContainer1661949607860" class="root_daum_roughmap root_daum_roughmap_landing"></div></div>`;
-                         new daum.roughmap.Lander({
+    new daum.roughmap.Lander({
 		"timestamp" : "1661949607860",
 		"key" : "2bjwu",
 		"mapWidth" : "360",
@@ -191,7 +185,7 @@ function check_class(){
     <br><br><br>
     <div id="map">
     <div id="daumRoughmapContainer1661949607860" class="root_daum_roughmap root_daum_roughmap_landing"></div></div>`;
-                         new daum.roughmap.Lander({
+    new daum.roughmap.Lander({
 		"timestamp" : "1661949607860",
 		"key" : "2bjwu",
 		"mapWidth" : "360",
@@ -203,7 +197,7 @@ function check_class(){
     <br><br><br>
     <div id="map">
     <div id="daumRoughmapContainer1661949607860" class="root_daum_roughmap root_daum_roughmap_landing"></div></div>`;
-                         new daum.roughmap.Lander({
+    new daum.roughmap.Lander({
 		"timestamp" : "1661949607860",
 		"key" : "2bjwu",
 		"mapWidth" : "360",
@@ -284,7 +278,7 @@ function check_class(){
     document.getElementById(`result`).innerHTML=`<img src="./image/Y3.jpg" width="80%" alt="[자캠] 명진당"></img><br><br>[자캠] 명진당<br><br><span style="font-size: 24px;">1층</span>    <br><br><br>
     <div id="map">
     <div id="daumRoughmapContainer1661941667234" class="root_daum_roughmap root_daum_roughmap_landing"></div></div>`;
-                         new daum.roughmap.Lander({
+    new daum.roughmap.Lander({
 		"timestamp" : "1661941667234",
 		"key" : "2bjvq",
 		"mapWidth" : "360",
@@ -298,7 +292,7 @@ function check_class(){
     <br><br><br>
     <div id="map">
     <div id="daumRoughmapContainer1661949494121" class="root_daum_roughmap root_daum_roughmap_landing"></div></div>`;
-                         new daum.roughmap.Lander({
+    new daum.roughmap.Lander({
 		"timestamp" : "1661949494121",
 		"key" : "2bjwt",
 		"mapWidth" : "360",
@@ -310,7 +304,7 @@ function check_class(){
     <br><br><br>
     <div id="map">
     <div id="daumRoughmapContainer1661949494121" class="root_daum_roughmap root_daum_roughmap_landing"></div></div>`;
-                         new daum.roughmap.Lander({
+    new daum.roughmap.Lander({
 		"timestamp" : "1661949494121",
 		"key" : "2bjwt",
 		"mapWidth" : "360",
@@ -322,7 +316,7 @@ function check_class(){
     <br><br><br>
     <div id="map">
     <div id="daumRoughmapContainer1661949494121" class="root_daum_roughmap root_daum_roughmap_landing"></div></div>`;
-                         new daum.roughmap.Lander({
+    new daum.roughmap.Lander({
 		"timestamp" : "1661949494121",
 		"key" : "2bjwt",
 		"mapWidth" : "360",
@@ -334,7 +328,7 @@ function check_class(){
     <br><br><br>
     <div id="map">
     <div id="daumRoughmapContainer1661949494121" class="root_daum_roughmap root_daum_roughmap_landing"></div></div>`;
-                         new daum.roughmap.Lander({
+    new daum.roughmap.Lander({
 		"timestamp" : "1661949494121",
 		"key" : "2bjwt",
 		"mapWidth" : "360",
@@ -346,7 +340,7 @@ function check_class(){
     <br><br><br>
     <div id="map">
     <div id="daumRoughmapContainer1661949494121" class="root_daum_roughmap root_daum_roughmap_landing"></div></div>`;
-                         new daum.roughmap.Lander({
+    new daum.roughmap.Lander({
 		"timestamp" : "1661949494121",
 		"key" : "2bjwt",
 		"mapWidth" : "360",
@@ -358,7 +352,7 @@ function check_class(){
     <br><br><br>
     <div id="map">
     <div id="daumRoughmapContainer1661949494121" class="root_daum_roughmap root_daum_roughmap_landing"></div></div>`;
-                         new daum.roughmap.Lander({
+    new daum.roughmap.Lander({
 		"timestamp" : "1661949494121",
 		"key" : "2bjwt",
 		"mapWidth" : "360",
@@ -370,7 +364,7 @@ function check_class(){
     <br><br><br>
     <div id="map">
     <div id="daumRoughmapContainer1661949494121" class="root_daum_roughmap root_daum_roughmap_landing"></div></div>`;
-                         new daum.roughmap.Lander({
+    new daum.roughmap.Lander({
 		"timestamp" : "1661949494121",
 		"key" : "2bjwt",
 		"mapWidth" : "360",
@@ -382,7 +376,7 @@ function check_class(){
     <br><br><br>
     <div id="map">
     <div id="daumRoughmapContainer1661949494121" class="root_daum_roughmap root_daum_roughmap_landing"></div></div>`;
-                         new daum.roughmap.Lander({
+    new daum.roughmap.Lander({
 		"timestamp" : "1661949494121",
 		"key" : "2bjwt",
 		"mapWidth" : "360",
@@ -394,7 +388,7 @@ function check_class(){
     <br><br><br>
     <div id="map">
     <div id="daumRoughmapContainer1661949494121" class="root_daum_roughmap root_daum_roughmap_landing"></div></div>`;
-                         new daum.roughmap.Lander({
+    new daum.roughmap.Lander({
 		"timestamp" : "1661949494121",
 		"key" : "2bjwt",
 		"mapWidth" : "360",
@@ -406,7 +400,7 @@ function check_class(){
     <br><br><br>
     <div id="map">
     <div id="daumRoughmapContainer1661949494121" class="root_daum_roughmap root_daum_roughmap_landing"></div></div>`;
-                         new daum.roughmap.Lander({
+    new daum.roughmap.Lander({
 		"timestamp" : "1661949494121",
 		"key" : "2bjwt",
 		"mapWidth" : "360",
@@ -420,7 +414,7 @@ function check_class(){
     document.getElementById(`result`).innerHTML=`<img src="./image/Y5.jpg" width="80%" alt="[자캠] 제5공"></img><br><br>[자캠] 제5공학관<br><br><span style="font-size: 24px;">1층</span>    <br><br><br>
     <div id="map">
     <div id="daumRoughmapContainer1661941831565" class="root_daum_roughmap root_daum_roughmap_landing"></div></div>`;
-                         new daum.roughmap.Lander({
+    new daum.roughmap.Lander({
 		"timestamp" : "1661941831565",
 		"key" : "2bjvr",
 		"mapWidth" : "360",
@@ -433,7 +427,7 @@ function check_class(){
     <br><br><br>
     <div id="map">
     <div id="daumRoughmapContainer1661941831565" class="root_daum_roughmap root_daum_roughmap_landing"></div></div>`;
-                         new daum.roughmap.Lander({
+    new daum.roughmap.Lander({
 		"timestamp" : "1661941831565",
 		"key" : "2bjvr",
 		"mapWidth" : "360",
@@ -446,7 +440,7 @@ function check_class(){
     <br><br><br>
     <div id="map">
     <div id="daumRoughmapContainer1661941831565" class="root_daum_roughmap root_daum_roughmap_landing"></div></div>`;
-                         new daum.roughmap.Lander({
+    new daum.roughmap.Lander({
 		"timestamp" : "1661941831565",
 		"key" : "2bjvr",
 		"mapWidth" : "360",
@@ -459,7 +453,7 @@ function check_class(){
     <br><br><br>
     <div id="map">
     <div id="daumRoughmapContainer1661941831565" class="root_daum_roughmap root_daum_roughmap_landing"></div></div>`;
-                         new daum.roughmap.Lander({
+    new daum.roughmap.Lander({
 		"timestamp" : "1661941831565",
 		"key" : "2bjvr",
 		"mapWidth" : "360",
@@ -474,7 +468,7 @@ function check_class(){
     <br><br><br>
     <div id="map">
     <div id="daumRoughmapContainer1661949956663" class="root_daum_roughmap root_daum_roughmap_landing"></div></div>`;
-                         new daum.roughmap.Lander({
+    new daum.roughmap.Lander({
 		"timestamp" : "1661949956663",
 		"key" : "2bjxz",
 		"mapWidth" : "360",
@@ -489,7 +483,7 @@ function check_class(){
     <br><br><br>
     <div id="map">
     <div id="daumRoughmapContainer1661941831565" class="root_daum_roughmap root_daum_roughmap_landing"></div></div>`;
-                         new daum.roughmap.Lander({
+    new daum.roughmap.Lander({
 		"timestamp" : "1661941831565",
 		"key" : "2bjvr",
 		"mapWidth" : "360",
@@ -502,7 +496,7 @@ function check_class(){
     <br><br><br>
     <div id="map">
     <div id="daumRoughmapContainer1661941831565" class="root_daum_roughmap root_daum_roughmap_landing"></div></div>`;
-                         new daum.roughmap.Lander({
+    new daum.roughmap.Lander({
 		"timestamp" : "1661941831565",
 		"key" : "2bjvr",
 		"mapWidth" : "360",
@@ -515,7 +509,7 @@ function check_class(){
     <br><br><br>
     <div id="map">
     <div id="daumRoughmapContainer1661941831565" class="root_daum_roughmap root_daum_roughmap_landing"></div></div>`;
-                         new daum.roughmap.Lander({
+    new daum.roughmap.Lander({
 		"timestamp" : "1661941831565",
 		"key" : "2bjvr",
 		"mapWidth" : "360",
@@ -530,7 +524,7 @@ function check_class(){
     <br><br><br>
     <div id="map">
     <div id="daumRoughmapContainer1661942005442" class="root_daum_roughmap root_daum_roughmap_landing"></div></div>`;
-                         new daum.roughmap.Lander({
+    new daum.roughmap.Lander({
 		"timestamp" : "1661942005442",
 		"key" : "2bjvt",
 		"mapWidth" : "360",
@@ -545,7 +539,7 @@ function check_class(){
     <br><br><br>
     <div id="map">
     <div id="daumRoughmapContainer1661942070143" class="root_daum_roughmap root_daum_roughmap_landing"></div></div>`;
-                         new daum.roughmap.Lander({
+    new daum.roughmap.Lander({
 		"timestamp" : "1661942070143",
 		"key" : "2bjvu",
 		"mapWidth" : "360",
@@ -558,7 +552,7 @@ function check_class(){
     <br><br><br>
     <div id="map">
     <div id="daumRoughmapContainer1661942070143" class="root_daum_roughmap root_daum_roughmap_landing"></div></div>`;
-                         new daum.roughmap.Lander({
+    new daum.roughmap.Lander({
 		"timestamp" : "1661942070143",
 		"key" : "2bjvu",
 		"mapWidth" : "360",
@@ -571,7 +565,7 @@ function check_class(){
     <br><br><br>
     <div id="map">
     <div id="daumRoughmapContainer1661942070143" class="root_daum_roughmap root_daum_roughmap_landing"></div></div>`;
-                         new daum.roughmap.Lander({
+    new daum.roughmap.Lander({
 		"timestamp" : "1661942070143",
 		"key" : "2bjvu",
 		"mapWidth" : "360",
@@ -584,7 +578,7 @@ function check_class(){
     <br><br><br>
     <div id="map">
     <div id="daumRoughmapContainer1661942070143" class="root_daum_roughmap root_daum_roughmap_landing"></div></div>`;
-                         new daum.roughmap.Lander({
+    new daum.roughmap.Lander({
 		"timestamp" : "1661942070143",
 		"key" : "2bjvu",
 		"mapWidth" : "360",
@@ -597,7 +591,7 @@ function check_class(){
     <br><br><br>
     <div id="map">
     <div id="daumRoughmapContainer1661942070143" class="root_daum_roughmap root_daum_roughmap_landing"></div></div>`;
-                         new daum.roughmap.Lander({
+    new daum.roughmap.Lander({
 		"timestamp" : "1661942070143",
 		"key" : "2bjvu",
 		"mapWidth" : "360",
@@ -610,7 +604,7 @@ function check_class(){
     <br><br><br>
     <div id="map">
     <div id="daumRoughmapContainer1661942070143" class="root_daum_roughmap root_daum_roughmap_landing"></div></div>`;
-                         new daum.roughmap.Lander({
+    new daum.roughmap.Lander({
 		"timestamp" : "1661942070143",
 		"key" : "2bjvu",
 		"mapWidth" : "360",
@@ -623,7 +617,7 @@ function check_class(){
     <br><br><br>
     <div id="map">
     <div id="daumRoughmapContainer1661942070143" class="root_daum_roughmap root_daum_roughmap_landing"></div></div>`;
-                         new daum.roughmap.Lander({
+    new daum.roughmap.Lander({
 		"timestamp" : "1661942070143",
 		"key" : "2bjvu",
 		"mapWidth" : "360",
@@ -636,7 +630,7 @@ function check_class(){
     <br><br><br>
     <div id="map">
     <div id="daumRoughmapContainer1661942070143" class="root_daum_roughmap root_daum_roughmap_landing"></div></div>`;
-                         new daum.roughmap.Lander({
+    new daum.roughmap.Lander({
 		"timestamp" : "1661942070143",
 		"key" : "2bjvu",
 		"mapWidth" : "360",
@@ -649,7 +643,7 @@ function check_class(){
     <br><br><br>
     <div id="map">
     <div id="daumRoughmapContainer1661942070143" class="root_daum_roughmap root_daum_roughmap_landing"></div></div>`;
-                         new daum.roughmap.Lander({
+    new daum.roughmap.Lander({
 		"timestamp" : "1661942070143",
 		"key" : "2bjvu",
 		"mapWidth" : "360",
@@ -664,7 +658,7 @@ function check_class(){
     <br><br><br>
     <div id="map">
     <div id="daumRoughmapContainer1661942184144" class="root_daum_roughmap root_daum_roughmap_landing"></div></div>`;
-                         new daum.roughmap.Lander({
+    new daum.roughmap.Lander({
 		"timestamp" : "1661942184144",
 		"key" : "2bjvv",
 		"mapWidth" : "360",
@@ -679,7 +673,7 @@ function check_class(){
     <br><br><br>
     <div id="map">
     <div id="daumRoughmapContainer1661949748310" class="root_daum_roughmap root_daum_roughmap_landing"></div></div>`;
-                         new daum.roughmap.Lander({
+    new daum.roughmap.Lander({
 		"timestamp" : "1661949748310",
 		"key" : "2bjww",
 		"mapWidth" : "360",
@@ -694,7 +688,7 @@ function check_class(){
     <br><br><br>
     <div id="map">
     <div id="daumRoughmapContainer1661942184144" class="root_daum_roughmap root_daum_roughmap_landing"></div></div>`;
-                         new daum.roughmap.Lander({
+    new daum.roughmap.Lander({
 		"timestamp" : "1661942184144",
 		"key" : "2bjvv",
 		"mapWidth" : "360",
@@ -707,7 +701,7 @@ function check_class(){
     <br><br><br>
     <div id="map">
     <div id="daumRoughmapContainer1661942184144" class="root_daum_roughmap root_daum_roughmap_landing"></div></div>`;
-                         new daum.roughmap.Lander({
+    new daum.roughmap.Lander({
 		"timestamp" : "1661942184144",
 		"key" : "2bjvv",
 		"mapWidth" : "360",
@@ -720,7 +714,7 @@ function check_class(){
     <br><br><br>
     <div id="map">
     <div id="daumRoughmapContainer1661942184144" class="root_daum_roughmap root_daum_roughmap_landing"></div></div>`;
-                         new daum.roughmap.Lander({
+    new daum.roughmap.Lander({
 		"timestamp" : "1661942184144",
 		"key" : "2bjvv",
 		"mapWidth" : "360",
@@ -733,7 +727,7 @@ function check_class(){
     <br><br><br>
     <div id="map">
     <div id="daumRoughmapContainer1661942184144" class="root_daum_roughmap root_daum_roughmap_landing"></div></div>`;
-                         new daum.roughmap.Lander({
+    new daum.roughmap.Lander({
 		"timestamp" : "1661942184144",
 		"key" : "2bjvv",
 		"mapWidth" : "360",
@@ -746,7 +740,7 @@ function check_class(){
     <br><br><br>
     <div id="map">
     <div id="daumRoughmapContainer1661942184144" class="root_daum_roughmap root_daum_roughmap_landing"></div></div>`;
-                         new daum.roughmap.Lander({
+    new daum.roughmap.Lander({
 		"timestamp" : "1661942184144",
 		"key" : "2bjvv",
 		"mapWidth" : "360",
@@ -761,7 +755,7 @@ function check_class(){
     <br><br><br>
     <div id="map">
     <div id="daumRoughmapContainer1661949414554" class="root_daum_roughmap root_daum_roughmap_landing"></div></div>`;
-                         new daum.roughmap.Lander({
+    new daum.roughmap.Lander({
 		"timestamp" : "1661949414554",
 		"key" : "2bjwr",
 		"mapWidth" : "360",
@@ -773,7 +767,7 @@ function check_class(){
     <br><br><br>
     <div id="map">
     <div id="daumRoughmapContainer1661949414554" class="root_daum_roughmap root_daum_roughmap_landing"></div></div>`;
-                         new daum.roughmap.Lander({
+    new daum.roughmap.Lander({
 		"timestamp" : "1661949414554",
 		"key" : "2bjwr",
 		"mapWidth" : "360",
@@ -785,7 +779,7 @@ function check_class(){
     <br><br><br>
     <div id="map">
     <div id="daumRoughmapContainer1661949414554" class="root_daum_roughmap root_daum_roughmap_landing"></div></div>`;
-                         new daum.roughmap.Lander({
+    new daum.roughmap.Lander({
 		"timestamp" : "1661949414554",
 		"key" : "2bjwr",
 		"mapWidth" : "360",
@@ -797,7 +791,7 @@ function check_class(){
     <br><br><br>
     <div id="map">
     <div id="daumRoughmapContainer1661949414554" class="root_daum_roughmap root_daum_roughmap_landing"></div></div>`;
-                         new daum.roughmap.Lander({
+    new daum.roughmap.Lander({
 		"timestamp" : "1661949414554",
 		"key" : "2bjwr",
 		"mapWidth" : "360",
@@ -812,7 +806,7 @@ function check_class(){
     <br><br><br>
     <div id="map">
     <div id="daumRoughmapContainer1661942266862" class="root_daum_roughmap root_daum_roughmap_landing"></div></div>`;
-                         new daum.roughmap.Lander({
+    new daum.roughmap.Lander({
 		"timestamp" : "1661942266862",
 		"key" : "2bjvw",
 		"mapWidth" : "360",
@@ -825,7 +819,7 @@ function check_class(){
     <br><br><br>
     <div id="map">
     <div id="daumRoughmapContainer1661942266862" class="root_daum_roughmap root_daum_roughmap_landing"></div></div>`;
-                         new daum.roughmap.Lander({
+    new daum.roughmap.Lander({
 		"timestamp" : "1661942266862",
 		"key" : "2bjvw",
 		"mapWidth" : "360",
@@ -838,7 +832,7 @@ function check_class(){
     <br><br><br>
     <div id="map">
     <div id="daumRoughmapContainer1661942266862" class="root_daum_roughmap root_daum_roughmap_landing"></div></div>`;
-                         new daum.roughmap.Lander({
+    new daum.roughmap.Lander({
 		"timestamp" : "1661942266862",
 		"key" : "2bjvw",
 		"mapWidth" : "360",
@@ -853,7 +847,7 @@ function check_class(){
     <br><br><br>
     <div id="map">
     <div id="daumRoughmapContainer1661942336670" class="root_daum_roughmap root_daum_roughmap_landing"></div></div>`;
-                         new daum.roughmap.Lander({
+    new daum.roughmap.Lander({
 		"timestamp" : "1661942336670",
 		"key" : "2bjvy",
 		"mapWidth" : "360",
@@ -866,7 +860,7 @@ function check_class(){
     <br><br><br>
     <div id="map">
     <div id="daumRoughmapContainer1661942336670" class="root_daum_roughmap root_daum_roughmap_landing"></div></div>`;
-                         new daum.roughmap.Lander({
+    new daum.roughmap.Lander({
 		"timestamp" : "1661942336670",
 		"key" : "2bjvy",
 		"mapWidth" : "360",
@@ -879,7 +873,7 @@ function check_class(){
     <br><br><br>
     <div id="map">
     <div id="daumRoughmapContainer1661942336670" class="root_daum_roughmap root_daum_roughmap_landing"></div></div>`;
-                         new daum.roughmap.Lander({
+    new daum.roughmap.Lander({
 		"timestamp" : "1661942336670",
 		"key" : "2bjvy",
 		"mapWidth" : "360",
@@ -894,7 +888,7 @@ function check_class(){
     <br><br><br>
     <div id="map">
     <div id="daumRoughmapContainer1661942421731" class="root_daum_roughmap root_daum_roughmap_landing"></div></div>`;
-                         new daum.roughmap.Lander({
+    new daum.roughmap.Lander({
 		"timestamp" : "1661942421731",
 		"key" : "2bjwz",
 		"mapWidth" : "360",
@@ -907,7 +901,7 @@ function check_class(){
     <br><br><br>
     <div id="map">
     <div id="daumRoughmapContainer1661942421731" class="root_daum_roughmap root_daum_roughmap_landing"></div></div>`;
-                         new daum.roughmap.Lander({
+    new daum.roughmap.Lander({
 		"timestamp" : "1661942421731",
 		"key" : "2bjwz",
 		"mapWidth" : "360",
@@ -922,7 +916,7 @@ function check_class(){
     <br><br><br>
     <div id="map">
     <div id="daumRoughmapContainer1661942472920" class="root_daum_roughmap root_daum_roughmap_landing"></div></div>`;
-                         new daum.roughmap.Lander({
+    new daum.roughmap.Lander({
 		"timestamp" : "1661942472920",
 		"key" : "2bjw2",
 		"mapWidth" : "360",
@@ -935,7 +929,7 @@ function check_class(){
     <br><br><br>
     <div id="map">
     <div id="daumRoughmapContainer1661942472920" class="root_daum_roughmap root_daum_roughmap_landing"></div></div>`;
-                         new daum.roughmap.Lander({
+    new daum.roughmap.Lander({
 		"timestamp" : "1661942472920",
 		"key" : "2bjw2",
 		"mapWidth" : "360",
@@ -955,7 +949,7 @@ function check_class(){
     <br><br><br>
     <div id="map">
     <div id="daumRoughmapContainer1661942549626" class="root_daum_roughmap root_daum_roughmap_landing"></div></div>`;
-                         new daum.roughmap.Lander({
+    new daum.roughmap.Lander({
 		"timestamp" : "1661942549626",
 		"key" : "2bjw4",
 		"mapWidth" : "360",
@@ -968,7 +962,7 @@ function check_class(){
     <br><br><br>
     <div id="map">
     <div id="daumRoughmapContainer1661942549626" class="root_daum_roughmap root_daum_roughmap_landing"></div></div>`;
-                         new daum.roughmap.Lander({
+    new daum.roughmap.Lander({
 		"timestamp" : "1661942549626",
 		"key" : "2bjw4",
 		"mapWidth" : "360",
@@ -981,7 +975,7 @@ function check_class(){
     <br><br><br>
     <div id="map">
     <div id="daumRoughmapContainer1661942549626" class="root_daum_roughmap root_daum_roughmap_landing"></div></div>`;
-                         new daum.roughmap.Lander({
+    new daum.roughmap.Lander({
 		"timestamp" : "1661942549626",
 		"key" : "2bjw4",
 		"mapWidth" : "360",
@@ -994,7 +988,7 @@ function check_class(){
     <br><br><br>
     <div id="map">
     <div id="daumRoughmapContainer1661942549626" class="root_daum_roughmap root_daum_roughmap_landing"></div></div>`;
-                         new daum.roughmap.Lander({
+    new daum.roughmap.Lander({
 		"timestamp" : "1661942549626",
 		"key" : "2bjw4",
 		"mapWidth" : "360",
@@ -1007,7 +1001,7 @@ function check_class(){
     <br><br><br>
     <div id="map">
     <div id="daumRoughmapContainer1661942549626" class="root_daum_roughmap root_daum_roughmap_landing"></div></div>`;
-                         new daum.roughmap.Lander({
+    new daum.roughmap.Lander({
 		"timestamp" : "1661942549626",
 		"key" : "2bjw4",
 		"mapWidth" : "360",
@@ -1020,7 +1014,7 @@ function check_class(){
     <br><br><br>
     <div id="map">
     <div id="daumRoughmapContainer1661942549626" class="root_daum_roughmap root_daum_roughmap_landing"></div></div>`;
-                         new daum.roughmap.Lander({
+    new daum.roughmap.Lander({
 		"timestamp" : "1661942549626",
 		"key" : "2bjw4",
 		"mapWidth" : "360",
@@ -1035,7 +1029,7 @@ function check_class(){
     <br><br><br>
     <div id="map">
     <div id="daumRoughmapContainer1661942639211" class="root_daum_roughmap root_daum_roughmap_landing"></div></div>`;
-                         new daum.roughmap.Lander({
+    new daum.roughmap.Lander({
 		"timestamp" : "1661942639211",
 		"key" : "2bjw5",
 		"mapWidth" : "360",
@@ -1048,7 +1042,7 @@ function check_class(){
     <br><br><br>
     <div id="map">
     <div id="daumRoughmapContainer1661942639211" class="root_daum_roughmap root_daum_roughmap_landing"></div></div>`;
-                         new daum.roughmap.Lander({
+    new daum.roughmap.Lander({
 		"timestamp" : "1661942639211",
 		"key" : "2bjw5",
 		"mapWidth" : "360",
@@ -1061,7 +1055,7 @@ function check_class(){
     <br><br><br>
     <div id="map">
     <div id="daumRoughmapContainer1661942639211" class="root_daum_roughmap root_daum_roughmap_landing"></div></div>`;
-                         new daum.roughmap.Lander({
+    new daum.roughmap.Lander({
 		"timestamp" : "1661942639211",
 		"key" : "2bjw5",
 		"mapWidth" : "360",
@@ -1074,7 +1068,7 @@ function check_class(){
     <br><br><br>
     <div id="map">
     <div id="daumRoughmapContainer1661942639211" class="root_daum_roughmap root_daum_roughmap_landing"></div></div>`;
-                         new daum.roughmap.Lander({
+    new daum.roughmap.Lander({
 		"timestamp" : "1661942639211",
 		"key" : "2bjw5",
 		"mapWidth" : "360",
@@ -1087,7 +1081,7 @@ function check_class(){
     <br><br><br>
     <div id="map">
     <div id="daumRoughmapContainer1661942639211" class="root_daum_roughmap root_daum_roughmap_landing"></div></div>`;
-                         new daum.roughmap.Lander({
+    new daum.roughmap.Lander({
 		"timestamp" : "1661942639211",
 		"key" : "2bjw5",
 		"mapWidth" : "360",
@@ -1102,7 +1096,7 @@ function check_class(){
     <br><br><br>
     <div id="map">
     <div id="daumRoughmapContainer1661942698433" class="root_daum_roughmap root_daum_roughmap_landing"></div></div>`;
-                         new daum.roughmap.Lander({
+    new daum.roughmap.Lander({
 		"timestamp" : "1661942698433",
 		"key" : "2bjw6",
 		"mapWidth" : "360",
@@ -1117,7 +1111,7 @@ function check_class(){
     <br><br><br>
     <div id="map">
     <div id="daumRoughmapContainer1661942773433" class="root_daum_roughmap root_daum_roughmap_landing"></div></div>`;
-                         new daum.roughmap.Lander({
+    new daum.roughmap.Lander({
 		"timestamp" : "1661942773433",
 		"key" : "2bjw7",
 		"mapWidth" : "360",
@@ -1130,7 +1124,7 @@ function check_class(){
     <br><br><br>
     <div id="map">
     <div id="daumRoughmapContainer1661942773433" class="root_daum_roughmap root_daum_roughmap_landing"></div></div>`;
-                         new daum.roughmap.Lander({
+    new daum.roughmap.Lander({
 		"timestamp" : "1661942773433",
 		"key" : "2bjw7",
 		"mapWidth" : "360",
@@ -1143,7 +1137,7 @@ function check_class(){
     <br><br><br>
     <div id="map">
     <div id="daumRoughmapContainer1661942773433" class="root_daum_roughmap root_daum_roughmap_landing"></div></div>`;
-                         new daum.roughmap.Lander({
+    new daum.roughmap.Lander({
 		"timestamp" : "1661942773433",
 		"key" : "2bjw7",
 		"mapWidth" : "360",
@@ -1156,7 +1150,7 @@ function check_class(){
     <br><br><br>
     <div id="map">
     <div id="daumRoughmapContainer1661942773433" class="root_daum_roughmap root_daum_roughmap_landing"></div></div>`;
-                         new daum.roughmap.Lander({
+    new daum.roughmap.Lander({
 		"timestamp" : "1661942773433",
 		"key" : "2bjw7",
 		"mapWidth" : "360",
@@ -1169,7 +1163,7 @@ function check_class(){
     <br><br><br>
     <div id="map">
     <div id="daumRoughmapContainer1661942773433" class="root_daum_roughmap root_daum_roughmap_landing"></div></div>`;
-                         new daum.roughmap.Lander({
+    new daum.roughmap.Lander({
 		"timestamp" : "1661942773433",
 		"key" : "2bjw7",
 		"mapWidth" : "360",
@@ -1182,7 +1176,7 @@ function check_class(){
     <br><br><br>
     <div id="map">
     <div id="daumRoughmapContainer1661942773433" class="root_daum_roughmap root_daum_roughmap_landing"></div></div>`;
-                         new daum.roughmap.Lander({
+    new daum.roughmap.Lander({
 		"timestamp" : "1661942773433",
 		"key" : "2bjw7",
 		"mapWidth" : "360",
@@ -1195,7 +1189,7 @@ function check_class(){
     <br><br><br>
     <div id="map">
     <div id="daumRoughmapContainer1661942773433" class="root_daum_roughmap root_daum_roughmap_landing"></div></div>`;
-                         new daum.roughmap.Lander({
+    new daum.roughmap.Lander({
 		"timestamp" : "1661942773433",
 		"key" : "2bjw7",
 		"mapWidth" : "360",
@@ -1210,7 +1204,7 @@ function check_class(){
     <br><br><br>
     <div id="map">
     <div id="daumRoughmapContainer1661942982698" class="root_daum_roughmap root_daum_roughmap_landing"></div></div>`;
-                         new daum.roughmap.Lander({
+    new daum.roughmap.Lander({
 		"timestamp" : "1661942982698",
 		"key" : "2bjw9",
 		"mapWidth" : "360",
@@ -1223,7 +1217,7 @@ function check_class(){
     <br><br><br>
     <div id="map">
     <div id="daumRoughmapContainer1661942982698" class="root_daum_roughmap root_daum_roughmap_landing"></div></div>`;
-                         new daum.roughmap.Lander({
+    new daum.roughmap.Lander({
 		"timestamp" : "1661942982698",
 		"key" : "2bjw9",
 		"mapWidth" : "360",
@@ -1236,7 +1230,7 @@ function check_class(){
     <br><br><br>
     <div id="map">
     <div id="daumRoughmapContainer1661942982698" class="root_daum_roughmap root_daum_roughmap_landing"></div></div>`;
-                         new daum.roughmap.Lander({
+    new daum.roughmap.Lander({
 		"timestamp" : "1661942982698",
 		"key" : "2bjw9",
 		"mapWidth" : "360",
@@ -1251,7 +1245,7 @@ function check_class(){
     <br><br><br>
     <div id="map">
     <div id="daumRoughmapContainer1661943069761" class="root_daum_roughmap root_daum_roughmap_landing"></div></div>`;
-                         new daum.roughmap.Lander({
+    new daum.roughmap.Lander({
 		"timestamp" : "1661943069761",
 		"key" : "2bjwa",
 		"mapWidth" : "360",
