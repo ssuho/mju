@@ -47,7 +47,7 @@ function check_class(){
         "key" : "2bjgc",
         "mapWidth" : "360",
         "mapHeight" : "300"
-      }).render();;
+      }).render();
   }
   else if(399 > n && n >= 300){
     document.getElementById(`result`).innerHTML=`<img src="./image/Y1.jpg" width="80%" alt="[자캠] 제1공"></img><br><br>[자캠] 제1공학관 (4번 건물)<br><br><span style="font-size: 24px;">3층</span><br><br><br>

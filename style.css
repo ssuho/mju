@@ -40,7 +40,7 @@ label {
   opacity: 0;
 }
 #input::placeholder {
-  color: slategray;
+  color: #708090;
 }
 #input:focus {
   outline: 2px solid blue;
