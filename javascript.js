@@ -751,7 +751,7 @@ function check_class(){
 
   // [인캠] MCC
     else if(10200 > n && n >=10100){
-    document.getElementById(`result`).innerHTML=`<img src="./image/S10.JPG" width="80%" alt="[인캠] MCC"></img><br><br>[인캠] MCC (10번 건물)<br><br><span style="font-size: 24px;">베리타스홀 1층</span><br><br><div class ="tip"><p>💡TIP : 운동장과 연결된 MCC 3층 입구는<br>학생증 없이 출입 가능해요</p></div>
+    document.getElementById(`result`).innerHTML=`<img src="./image/S10.JPG" width="80%" alt="[인캠] MCC"></img><br><br>[인캠] MCC (10번 건물)<br><br><span style="font-size: 24px;">베리타스홀 1층</span><br><br><div class ="tip"><p>💡TIP : 운동장과 연결된 MCC 3층 입구는 학생증 없이 출입 가능해요</p></div>
     <br><br><br>
     <div id="map">
     <div id="daumRoughmapContainer1661949414554" class="root_daum_roughmap root_daum_roughmap_landing"></div></div>`;
@@ -763,7 +763,7 @@ function check_class(){
 	}).render();
 
   } else if(10300 > n && n >=10200){
-    document.getElementById(`result`).innerHTML=`<img src="./image/S10.JPG" width="80%" alt="[인캠] MCC"></img><br><br>[인캠] MCC (10번 건물)<br><br><span style="font-size: 24px;">베리타스홀 2층</span><br><br><div class ="tip"><p>💡TIP : 운동장과 연결된 MCC 3층 입구는<br>학생증 없이 출입 가능해요</p></div>
+    document.getElementById(`result`).innerHTML=`<img src="./image/S10.JPG" width="80%" alt="[인캠] MCC"></img><br><br>[인캠] MCC (10번 건물)<br><br><span style="font-size: 24px;">베리타스홀 2층</span><br><br><div class ="tip"><p>💡TIP : 운동장과 연결된 MCC 3층 입구는 학생증 없이 출입 가능해요</p></div>
     <br><br><br>
     <div id="map">
     <div id="daumRoughmapContainer1661949414554" class="root_daum_roughmap root_daum_roughmap_landing"></div></div>`;
@@ -775,7 +775,7 @@ function check_class(){
 	}).render();
 
   } else if(10400 > n && n >=10300){
-    document.getElementById(`result`).innerHTML=`<img src="./image/S10.JPG" width="80%" alt="[인캠] MCC"></img><br><br>[인캠] MCC (10번 건물)<br><br><span style="font-size: 24px;">베리타스홀 3층</span><br><br><div class ="tip"><p>💡TIP : 운동장과 연결된 MCC 3층 입구는<br>학생증 없이 출입 가능해요</p></div>
+    document.getElementById(`result`).innerHTML=`<img src="./image/S10.JPG" width="80%" alt="[인캠] MCC"></img><br><br>[인캠] MCC (10번 건물)<br><br><span style="font-size: 24px;">베리타스홀 3층</span><br><br><div class ="tip"><p>💡TIP : 운동장과 연결된 MCC 3층 입구는 학생증 없이 출입 가능해요</p></div>
     <br><br><br>
     <div id="map">
     <div id="daumRoughmapContainer1661949414554" class="root_daum_roughmap root_daum_roughmap_landing"></div></div>`;
@@ -787,7 +787,7 @@ function check_class(){
 	}).render();
 
   } else if(10500 > n && n >=10400){
-    document.getElementById(`result`).innerHTML=`<img src="./image/S10.JPG" width="80%" alt="[인캠] MCC"></img><br><br>[인캠] MCC (10번 건물)<br><br><span style="font-size: 24px;">베리타스홀 4층</span><br><br><div class ="tip"><p>💡TIP : 운동장과 연결된 MCC 3층 입구는<br>학생증 없이 출입 가능해요</p></div>
+    document.getElementById(`result`).innerHTML=`<img src="./image/S10.JPG" width="80%" alt="[인캠] MCC"></img><br><br>[인캠] MCC (10번 건물)<br><br><span style="font-size: 24px;">베리타스홀 4층</span><br><br><div class ="tip"><p>💡TIP : 운동장과 연결된 MCC 3층 입구는 학생증 없이 출입 가능해요</p></div>
     <br><br><br>
     <div id="map">
     <div id="daumRoughmapContainer1661949414554" class="root_daum_roughmap root_daum_roughmap_landing"></div></div>`;
