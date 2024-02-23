@@ -95,6 +95,10 @@ p {
   font-size: 16px;
 }
 
+#result img {
+  max-width: 500px;
+}
+
 /* 폼1 */
 #form1 {
   position: relative;
