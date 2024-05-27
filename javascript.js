@@ -669,13 +669,26 @@ function check_class(){
 
   // [인캠] 방목학술정보관
   else if(n == 9114){
-    document.getElementById(`result`).innerHTML=`<img src="./image/S9.JPG" width="80%" alt="방목학술정보관"></img><br><br>[인캠] 방목학술정보관 (도서관, 9번 건물)<br><br><span style="font-size: 24px;">1층 국제회의장</span><br><br><div class ="tip"><p>💡TIP : 학술관 3층 ↔ 국제관 4층</p></div>
+    document.getElementById(`result`).innerHTML=`<br><h3>인문캠퍼스</h3><img src="./image/S9.JPG" width="80%" alt="방목학술정보관"></img><br><br>[인캠] 방목학술정보관 (도서관, 9번 건물)<br><br><span style="font-size: 24px;">1층 국제회의장</span><br><br><div class ="tip"><p>💡TIP : 학술관 3층 ↔ 국제관 4층</p></div>
     <br><br><br>
     <div id="map">
-    <div id="daumRoughmapContainer1661949748310" class="root_daum_roughmap root_daum_roughmap_landing"></div></div>`;
+    <div id="daumRoughmapContainer1661949748310" class="root_daum_roughmap root_daum_roughmap_landing"></div></div>
+    <br><br><br>
+    <br><h3>자연캠퍼스</h3>
+    <img src="./image/Y9.jpg" width="80%" alt="[자캠] 함박"></img><br><br>[자캠] 함박관<br><br><span style="font-size: 24px;">1층</span>
+    <br><br><br>
+    <div id="map">
+    <div id="daumRoughmapContainer1661942184144" class="root_daum_roughmap root_daum_roughmap_landing"></div></div>
+    `;
     new daum.roughmap.Lander({
 		"timestamp" : "1661949748310",
 		"key" : "2bjww",
+		"mapWidth" : "360",
+		"mapHeight" : "300"
+	}).render();
+  new daum.roughmap.Lander({
+		"timestamp" : "1661942184144",
+		"key" : "2bjvv",
 		"mapWidth" : "360",
 		"mapHeight" : "300"
 	}).render();
